@@ -1,0 +1,103 @@
+body{
+    box-sizing: border-box;
+    background-color:  hsl(217, 54%, 11%);
+    width: 1440px;
+    margin: 0;
+    padding: 0;
+    font-family: "outfit", sans-serif
+}
+.main-div{
+    width: 350px;
+    height: 600px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 6% 6% 6% 6%;
+    box-shadow:30px 30px 60px hsl(216, 50%, 16%);
+    margin-top: 150px;
+    margin-left: 50%;
+}
+.conteiner-image{
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+    height: auto;
+}
+.main-image{
+    position: relative;
+    width: 309px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+
+}
+.color-image{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: none;
+}
+.color-image:hover{
+    background: url(./images/icon-view.svg) hsl(178, 100%, 50%) no-repeat 50% 50%;
+    background-size: 20% 20%;
+    opacity: 0.7;
+}
+h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    margin-left: 20px;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+h1:hover{
+    color: hsl(178, 100%, 50%);
+}
+p{
+    color:  hsl(215, 51%, 70%);
+    margin-left: 20px;
+}
+.texts{
+    width: 300px;
+    margin-right: 80px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+.eth{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Nunito', sans-serif;
+}
+.days{
+    color:  hsl(215, 51%, 70%);
+}
+.ethereum{
+    margin-left: 20px;
+}
+hr{
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 1px;
+    background-color: hsl(215, 32%, 27%);
+    border: none;
+}
+.avatar{
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 10%;
+    height: 10%;
+    margin-left: 25px;
+}
+.last{
+    display: flex;
+    text-align: center;
+    margin-top: 15px;
+}
+.jules{
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+}
+.jules:hover{
+    color: hsl(178, 100%, 50%);
+}
